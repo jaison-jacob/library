@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>book search htmle</title>
+</head>
+<body>
+
+<form action = "admin" method = "post">
+
+<style>
+.adminlogin{
+ position: absolute;
+ margin-top:10%;
+  width: 40%;
+  height:75%;
+  left:25%;
+  border: 3px solid #73AD21;
+  padding: 5px;
+  background-color:LightGray;
+}
+#big{
+width: 75%;
+}
+#btn{
+ position: absolute;
+ right:5%;
+ width:25%;
+ hight:20%;
+}
+#heading{
+ position: absolute;
+ left: 50%;
+ 
+}
+</style>
+
+<div class = "adminlogin">
+<h3>BOOK SEARCH</h3>
+
+BOOK NAME:<br><input type="text" name="bookname" placeholder="book name" id = "big"/><br><br>
+LANGUAGE:<br><input type="text" name="language" placeholder="language" id="big"/><br><br>
+CATAGORY:<br><input type="text" name="catagory" placeholder="catagory" id="big"/><br><br>
+PUBLISHYEAR:<br><input type="text" name="publishyear" placeholder="publishyear" id="big"/><br><br>
+<input type="hidden" name="page" value="search"/><br>
+<input type="submit" name="booksearch" id = "btn" value="SEARCH" /><br>
+
+</div>
+
+</form>
+
+
+</body>
+</html>

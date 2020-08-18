@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action = "student" method = "post">
+
+<style>
+.adminregister{
+ position: absolute;
+ margin: auto;
+  width: 40%;
+  height:90%;
+  left:5%;
+  border: 3px solid #73AD21;
+  padding: 5px;
+  
+  background-color:LightGray;
+}
+#big{
+width: 75%;
+}
+#btn{
+ position: absolute;
+ right:5%;
+ width:25%;
+ hight:10%;
+}
+</style>
+<div class = "adminregister">
+<h3>STUDENT REGISTRATION FORM</h3>
+STUDENT NAME:<br><input type="text" name="register name" placeholder="name"  id = "big"/><br><br>
+
+PASSWORD:<br><input type="password" name="register password" placeholder="password" id = "big"/><br><br>
+PHONENO:<br><input type="text" name="register phoneno" placeholder=" phoneno" id = "big"/><br><br>
+ADRESS:<br><input type="text" name="register address" placeholder=" address" id = "big"/><br><br>
+EMAIL:<br><input type="text" name="register email" placeholder="email" id ="big"/><br>
+
+<input type="hidden" name="page" value="adminregister"/><br>
+<input type="submit" name="resgister admin" id = "btn" /><br>
+
+</div>
+
+</form>
+
+<form action = "student" method = "post">
+
+<style>
+.adminlogin{
+ position: absolute;
+ margin-top: 15%;
+  width: 40%;
+  height:50%;
+  left:50%;
+  border: 3px solid #73AD21;
+  padding: 5px;
+  background-color:LightGray;
+}
+#big{
+width: 75%;
+}
+#btn{
+ position: absolute;
+ right:5%;
+ width:25%;
+ hight:10%;
+}
+#heading{
+ position: absolute;
+ left: 50%;
+ 
+}
+</style>
+<h2 id ="heading">LIBRARY STUDENT REGISTRATION AND LOGIN FORM</h2>
+<div class = "adminlogin">
+<h3>STUDENT LOGIN FORM</h3>
+
+STUDENT USERID:<br><input type="text" name="userid" placeholder="userid" id = "big"/><br><br>
+STUDENT PASSWORD:<br><input type="password" name="password" placeholder="password" id = "big"/><br><br>
+
+<input type="hidden" name="page" value="studentlogin"/><br>
+<input type="submit" name="login admin" id = "btn" value="LOGIN" /><br>
+
+</div>
+
+</form>
+
+
+</body>
+</html>

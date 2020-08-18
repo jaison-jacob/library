@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>library admin page</title>
+</head>
+<body>
+
+
+
+	<style>
+.buttn {
+	position: absolute;
+	width: 80%;
+	height: 75%;
+	margin-left: 10%;
+	border: 3px solid #73AD21;
+	padding: 3%;
+	background-color: LightGray;
+}
+
+input {
+	margin-top: 2%;
+	width: 85%;
+	height: 10%;
+	margin-left: 5%;
+}
+
+#heading {
+	margin-top: 0%;
+	text-align: center;
+}
+</style>
+
+	<div class="buttn">
+	
+		<h3 id="heading">ADMIN USAGE PAGE</h3>
+		<form action="admin" method="post">
+			<input type="hidden" name="page" value="bookaddhtml" /> <input
+				type="submit" name="book add" value="BOOK ADD" />
+		</form>
+
+		<form action="admin" method="post">
+			<input type="hidden" name="page" value="booksview" /><br> <input
+				type="submit" name="book view" value="BOOKS VIEW" />
+		</form>
+
+		<form action="admin" method="post">
+			<input type="hidden" name="page" value="booksearch" /> <input
+				type="submit" name="book search" value="BOOK SEARCH" />
+		</form>
+
+		<form action="admin" method="post">
+			<input type="hidden" name="page" value="studentlist" /> <input
+				type="submit" name="student list" value="STUDENTS LIST" />
+		</form>
+
+		<form action="admin" method="post">
+			<input type="hidden" name="page" value="searchstudent" /> <input
+				type="submit" name="search student" value="SEARCH STUDENT" />
+		</form>
+
+		<form action="admin" method="get">
+			<input type="hidden" name="page" value="backlogin" /> <input
+				type="submit" name="back login" value="BACK LOGIN" />
+		</form>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+
+<form action = "student" method = "post">
+
+<style>
+.adminlogin{
+ position: absolute;
+ margin-top:05%;
+  width: 40%;
+  height:75%;
+  left:25%;
+  border: 3px solid #73AD21;
+  padding: 5px;
+  background-color:LightGray;
+}
+#big{
+width: 75%;
+}
+#btn{
+ position: absolute;
+ right:5%;
+ width:25%;
+ hight:10%;
+}
+#heading{
+ position: absolute;
+ left: 50%;
+ 
+}
+</style>
+
+<div class = "adminlogin">
+<h3>BOOK SEARCH</h3>
+
+<b>BOOK NAME:</b><br><input type="text" name="bookname" placeholder="book name" id = "big"/><br><br>
+<b>LANGUAGE:</b><br><input type="text" name="language" placeholder="language" id = "big"/><br><br>
+<b>CATAGORY:</b><br><input type="text" name="catagory" placeholder="catagory" id = "big"/><br><br>
+<b>PUBLISHYEAR:</b><br><input type="text" name="publishyear" placeholder="publishyear" id = "big"/><br><br>
+
+
+<input type="hidden" name="page" value="search"/><br>
+<input type="submit" name="search" id = "btn" value="SEARCH" /><br>
+
+</div>
+
+</form>
+</html> 
